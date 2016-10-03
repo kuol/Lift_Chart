@@ -1,0 +1,15 @@
+<fieldset>
+<legend>Configuration</legend>
+{{ `LabelGroup (47)` }}
+{{ `true_resp` }}
+{{ `targ_level` }}
+{{ `samp_name` }}
+{{ `num.records` }}
+{{ `LabelGroup (58)` }}
+{{ `in.w` }}
+{{ `in.h` }}
+{{ `cm.w` }}
+{{ `cm.h` }}
+{{ `graph.resolution` }}
+{{ `pointsize` }}
+</fieldset>

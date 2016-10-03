@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<AlteryxJavaScriptPlugin>
+  <EngineSettings EngineDLL="Macro" EngineDLLEntryPoint="Lift_Chart/Supporting_Macros/Lift_Chart.yxmc" SDKVersion="10.1"/>
+  <GuiSettings Html="Lift_ChartGui.html" Icon="Lift_ChartIcon.png" SDKVersion="10.1" Help="Lift_Chart.htm">
+    <InputConnections>
+      <Connection Name="Right Input" AllowMultiple="False" Optional="False" Type="Connection" Label=""/>
+      <Connection Name="Left Input" AllowMultiple="False" Optional="False" Type="Connection" Label=""/>
+    </InputConnections>
+    <OutputConnections>
+      <Connection Name="Output" AllowMultiple="False" Optional="False" Type="Connection" Label=""/>
+    </OutputConnections>
+  </GuiSettings>
+  <Properties>
+    <MetaInfo>
+      <NameIsFileName></NameIsFileName>
+      <Name>Lift Chart</Name>
+      <Description>Compare the improvement (or lift) that various models provide to each other as well as a &#x2018;random guess&#x2019; to help determine which model is &#x2018;best.&#x2019;
+
+Produce a cumulative captured response chart (also called a gains chart) or an incremental response rate chart.</Description>
+      <RootToolName></RootToolName>
+      <ToolVersion>1.1</ToolVersion>
+      <ToolInDb></ToolInDb>
+      <CategoryName>Predictive Refresh</CategoryName>
+      <SearchTags>predictive, macro, R, cumulative, chart, predictive category, gains, incremental, response, dumbell, barbell</SearchTags>
+      <Author>Dan Putler</Author>
+      <Company>Alteryx, Inc.</Company>
+      <Copyright>Alteryx, Inc.</Copyright>
+      <DescriptionLink></DescriptionLink>
+      <Example></Example>
+    </MetaInfo>
+  </Properties>
+</AlteryxJavaScriptPlugin>
